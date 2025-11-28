@@ -27,7 +27,7 @@ This project showcases my skills, experience, and projects as an aspiring **DevO
 
 ## 📂 Project Structure
 
-project-folder/
+```project-folder/
 ├── public/
 ├── src/
 │ ├── assets/
@@ -37,7 +37,7 @@ project-folder/
 ├── index.html
 ├── package.json
 ├── vite.config.js
-└── tailwind.config.js
+└── tailwind.config.js```
 
 ---
 
