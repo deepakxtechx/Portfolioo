@@ -128,33 +128,20 @@ export default function Portfolio() {
             </h2>
             {/* First Row - 3 items */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
-              <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl hover:shadow-purple-200/50 transition-all duration-300 text-center">
-                <div className="w-16 h-16 mx-auto mb-4 bg-linear-to-br from-purple-100 to-purple-200 rounded-xl flex items-center justify-center">
-                  <Code className="text-purple-600" size={32} />
+              <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl hover:shadow-indigo-200/50 transition-all duration-300 text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-linear-to-br from-orange-100 to-orange-200 rounded-xl flex items-center justify-center">
+                  <Cloud className="text-orange-600" size={32} />
                 </div>
                 <h3 className="text-lg font-bold text-gray-800 mb-3">
-                  CI/CD Pipelines
+                  Cloud Platform
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
-                  Automated build, test, and deployment workflows using Jenkins,
-                  GitHub Actions, and more.
+                  Hands-on experience with AWS services like EC2, VPC, IAM, S3, RDS, EKS, ECS and ECR for cloud-based deployments.
                 </p>
               </div>
+               
 
-              <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl hover:shadow-blue-200/50 transition-all duration-300 text-center">
-                <div className="w-16 h-16 mx-auto mb-4 bg-linear-to-br from-blue-100 to-blue-200 rounded-xl flex items-center justify-center">
-                  <Server className="text-blue-600" size={32} />
-                </div>
-                <h3 className="text-lg font-bold text-gray-800 mb-3">
-                  Infrastructure as Code
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  Terraform and CloudFormation for provisioning and managing
-                  cloud resources.
-                </p>
-              </div>
-
-              <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl hover:shadow-pink-200/50 transition-all duration-300 text-center">
+               <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl hover:shadow-pink-200/50 transition-all duration-300 text-center">
                 <div className="w-16 h-16 mx-auto mb-4 bg-linear-to-br from-pink-100 to-pink-200 rounded-xl flex items-center justify-center">
                   <svg
                     className="text-pink-600"
@@ -177,19 +164,36 @@ export default function Portfolio() {
                   microservices architecture.
                 </p>
               </div>
+              
+
+              <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl hover:shadow-blue-200/50 transition-all duration-300 text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-linear-to-br from-blue-100 to-blue-200 rounded-xl flex items-center justify-center">
+                  <Server className="text-blue-600" size={32} />
+                </div>
+                <h3 className="text-lg font-bold text-gray-800 mb-3">
+                  Infrastructure as Code
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed">
+                  Terraform and Ansible for provisioning and managing
+                  cloud resources.
+                </p>
+              </div>
+
+              
             </div>
 
             {/* Second Row - 2 items centered */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl hover:shadow-indigo-200/50 transition-all duration-300 text-center">
-                <div className="w-16 h-16 mx-auto mb-4 bg-linear-to-br from-orange-100 to-orange-200 rounded-xl flex items-center justify-center">
-                  <Cloud className="text-orange-600" size={32} />
+              <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl hover:shadow-purple-200/50 transition-all duration-300 text-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-linear-to-br from-purple-100 to-purple-200 rounded-xl flex items-center justify-center">
+                  <Code className="text-purple-600" size={32} />
                 </div>
                 <h3 className="text-lg font-bold text-gray-800 mb-3">
-                  Cloud & AWS
+                  CI/CD Pipelines
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
-                  Hands-on experience with AWS services like EC2, VPC, IAM, S3, RDS, EKS, ECS and ECR for cloud-based deployments.
+                  Automated build, test, and deployment workflows using Jenkins,
+                  GitHub Actions, and more.
                 </p>
               </div>
 
@@ -222,58 +226,43 @@ export default function Portfolio() {
         </section>
 
         <section id="about" className="py-20 px-6">
-          <div className="container mx-auto max-w-4xl">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              About Me
-            </h2>
-            <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-8 border border-white/50 shadow-xl shadow-blue-100/50">
-              <p className="text-base text-gray-700 leading-relaxed mb-5">
-                A DevOps Engineer driven by curiosity and a love for automation, scalability, and continuous improvement.
-                My journey into DevOps began 1.5 years ago when I started exploring how modern cloud and automation tools 
-                transform software delivery. I completed a 3-month Cloud Training Program, where I gained hands-on 
-                experience with multiple AWS services and DevOps tools, and learned how to manage applications, automate 
-                workflows, and implement cloud-native solutions.
+  <div className="container mx-auto max-w-4xl">
+    
+    <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+      About Me
+    </h2>
 
-              </p>
-              <p className="text-base text-gray-700 leading-relaxed">
-                I’ve worked on multiple self-driven projects — setting up CI/CD pipelines, automating infrastructure with 
-                Terraform, containerizing workloads with Docker and Kubernetes, and experimenting with monitoring stacks — 
-                all to deepen my understanding of real-world DevOps practices.
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
-                <div className="text-center p-5 bg-linear-to-br from-blue-50 to-blue-100/50 backdrop-blur-sm border border-blue-200/50 rounded-xl shadow-md">
-                  <MapPin className="mx-auto mb-2 text-blue-600" size={24} />
-                  <p className="text-xs text-gray-600 mb-1 font-medium">
-                    Location
-                  </p>
-                  <p className="text-sm font-semibold text-gray-800">
-                    Mumbai, India
-                  </p>
-                </div>
-                <div className="text-center p-5 bg-linear-to-br from-purple-50 to-purple-100/50 backdrop-blur-sm border border-purple-200/50 rounded-xl shadow-md">
-                  <Mail className="mx-auto mb-2 text-purple-600" size={24} />
-                  <p className="text-xs text-gray-600 mb-1 font-medium">
-                    Email
-                  </p>
-                  <p className="text-xs font-semibold text-gray-800">
-                    deepakxtechx@gmail.com
-                  </p>
-                </div>
-                <div className="text-center p-5 bg-linear-to-br from-pink-50 to-pink-100/50 backdrop-blur-sm border border-pink-200/50 rounded-xl shadow-md">
-                  <Phone className="mx-auto mb-2 text-pink-600" size={24} />
-                  <p className="text-xs text-gray-600 mb-1 font-medium">
-                    Phone
-                  </p>
-                  <p className="text-sm font-semibold text-gray-800">
-                    +91 8355911369
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+    <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-8 border border-white/50 shadow-xl shadow-blue-100/50">
 
-        <section id="experience" className="py-20 px-6">
+      {/* Paragraph 1 */}
+      <p className="text-base text-gray-700 leading-relaxed mb-5">
+        A DevOps Engineer driven by curiosity and a love for automation, scalability, and continuous improvement.
+        My journey into DevOps began 1.5 years ago when I started exploring how modern cloud and automation tools 
+        transform software delivery.
+      </p>
+
+      {/* Paragraph 2 */}
+      <p className="text-base text-gray-700 leading-relaxed mb-5">
+        I completed a 3-month Cloud Training Program, where I gained hands-on experience with multiple AWS services 
+        and DevOps tools, and learned how to manage applications, automate workflows, and implement cloud-native solutions.
+      </p>
+
+      {/* Paragraph 3 */}
+      <p className="text-base text-gray-700 leading-relaxed">
+        I’ve worked on multiple self-driven projects — setting up CI/CD pipelines, automating infrastructure with 
+        Terraform, containerizing workloads with Docker and Kubernetes, and experimenting with monitoring stacks — 
+        all to deepen my understanding of real-world DevOps practices.
+      </p>
+
+      {/* Contact Info Cards */}
+      
+    </div>
+  </div>
+</section>
+
+{/* this is the 1st experience section 
+
+ <section id="experience" className="py-20 px-6">
           <div className="container mx-auto max-w-4xl">
             <h2 className="text-3xl font-bold mb-12 text-center bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Experience
@@ -318,6 +307,81 @@ export default function Portfolio() {
             </div>
           </div>
         </section>
+*/}
+        <section id="experience" className="py-20 px-6">
+  <div className="container mx-auto max-w-4xl">
+    <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+      Experience
+    </h2>
+
+    {/* outer relative only needed for md+ centered timeline */}
+    <div className="relative">
+      {/* CENTER LINE for md+ screens */}
+      <div
+        className="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 -translate-x-1/2 rounded-full
+                   bg-gradient-to-b from-blue-400 via-purple-400 to-pink-400"
+        aria-hidden="true"
+      />
+
+      {/* Single timeline entry */}
+      <div className="mb-12 flex flex-col md:flex-row items-start md:items-center">
+        {/* LEFT COLUMN - on md it's the left side; on mobile it's full width above */}
+        <div className="flex-1 md:w-1/2 md:pr-8 text-left md:text-right">
+          <h3 className="text-lg font-bold text-gray-800 mb-1">AWS Re/start Program Trainee</h3>
+          <p className="text-base text-gray-700 mb-2 font-medium">Magic Bus India Foundation</p>
+          <p className="text-sm text-gray-600 flex items-center md:justify-end">
+            <Calendar size={16} className="mr-1.5 text-blue-600" />
+            June 2024 – Sept 2024
+          </p>
+        </div>
+
+        {/* CENTER MARKER (responsive) */}
+        <div className="flex items-start md:items-center">
+          {/* Mobile marker & left vertical accent for mobile: visible on small screens */}
+          <div
+            className="md:hidden flex items-center"
+            aria-hidden="true"
+            style={{ marginRight: '0.5rem' }}
+          >
+            {/* thin vertical accent for mobile entries */}
+            <div className="w-1 h-full bg-gradient-to-b from-blue-400 to-pink-400 rounded" />
+            {/* circular marker */}
+            <div className="w-4 h-4 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 border-4 border-white shadow-lg -translate-y-2" />
+          </div>
+
+          {/* Marker for md+ placed over center line */}
+          <div className="hidden md:flex items-center justify-center w-16">
+            <div className="relative z-10">
+              <div className="w-4 h-4 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full border-4 border-white shadow-lg" />
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT COLUMN - on md it's the right side; on mobile it's full width below */}
+        <div className="flex-1 md:w-1/2 md:pl-8 mt-4 md:mt-0">
+          <ul className="space-y-2.5 text-sm text-gray-700">
+            <li className="flex items-start">
+              <span className="text-blue-500 mr-2 font-bold">▹</span>
+              <span>
+                Completed the AWS re/Start Cloud Computing Programme in collaboration with Accenture and Magic Bus India Foundation!
+              </span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-purple-500 mr-2 font-bold">▹</span>
+              <span>
+                Gained hands-on experience with multiple AWS services and DevOps tools, and learned how to manage applications,
+                automate workflows, and implement cloud-native solutions.
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Add more entries by duplicating the entry block above */}
+    </div>
+  </div>
+</section>
+
 
         <section id="projects" className="py-20 px-6">
           <div className="container mx-auto max-w-5xl">
@@ -533,7 +597,7 @@ export default function Portfolio() {
                   </h3>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  {["AWS EC2", "VPC", "IAM", "S3", "RDS", "EKS"].map(
+                  {["EC2", "VPC", "IAM", "S3", "RDS", "EKS"].map(
                     (skill) => (
                       <span
                         key={skill}
@@ -671,7 +735,7 @@ export default function Portfolio() {
                       & Research
                     </p>
                      <p className="text-sm text-gray-700 mt-1 font-medium">
-                       Autonomous
+                      • Autonomous
                     </p>
                   </div>
                   <span className="text-xs text-white font-semibold px-3 py-1.5 bg-linear-to-r from-purple-500 to-pink-500 rounded-full shadow-md">
@@ -694,7 +758,7 @@ export default function Portfolio() {
                       Bunts Sangha Mumbai
                     </p>
                      <p className="text-sm text-gray-700 mt-1 font-medium">
-                      Mumbai University
+                     • Mumbai University
                     </p>
                   </div>
                   <span className="text-xs text-white font-semibold px-3 py-1.5 bg-linear-to-r from-purple-500 to-pink-500 rounded-full shadow-md">
@@ -717,7 +781,7 @@ export default function Portfolio() {
                       National Sarvodaya High School and Junior College
                     </p>
                      <p className="text-sm text-gray-700 mt-1 font-medium">
-                      Maharastra Board
+                      • Maharastra Board
                     </p>
                   </div>
                   <span className="text-xs text-white font-semibold px-3 py-1.5 bg-linear-to-r from-purple-500 to-pink-500 rounded-full shadow-md">
@@ -740,7 +804,7 @@ export default function Portfolio() {
                       Shree Sanatan Dharm Vidyalaya
                     </p>
                      <p className="text-sm text-gray-700 mt-1 font-medium">
-                      Maharastra Board
+                      • Maharastra Board
                     </p>
                   </div>
                   <span className="text-xs text-white font-semibold px-3 py-1.5 bg-linear-to-r from-purple-500 to-pink-500 rounded-full shadow-md">
